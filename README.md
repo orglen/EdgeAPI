@@ -31,9 +31,12 @@ EdgeProject/
 
 API节点是唯一可以操作数据库的节点，所以需要在步骤中配置数据库，也是其他节点依赖运行的节点。
 
-从 https://github.com/orglen/EdgeAPI下载EdgeAPI源码；
-从 https://github.com/orglen/EdgeCommon下载EdgeCommon源码，如果已经下载则不需要重复下载；
+从 https://github.com/orglen/EdgeAPI 下载EdgeAPI源码；
+
+从 https://github.com/orglen/EdgeCommon 下载EdgeCommon源码，如果已经下载则不需要重复下载；
+
 将EdgeAdmin和EdgeCommon放在同一目录下；
+
 转到 EdgeAPI 目录下；
 
 执行 `go mod download` 下载项目依赖的源码；
